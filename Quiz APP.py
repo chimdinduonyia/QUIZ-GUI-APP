@@ -13,7 +13,7 @@ root.geometry("400x350")
 
 # Globals
 # File path of test spreadsheet
-test_filename = "C://Users/USER/Documents/PYTHON PROJECTS/QUIZ APP/TESTS/Test.xlsx"
+test_filename = "C://Users/USER/Documents/PYTHON PROJECTS/QUIZ GUI APP/TESTS/Test.xlsx"
 test = {}  # {Question:[option a, option b, option c, option d]}
 questions = []  # List of questions
 index = 0  # Index of questions in questions list
@@ -369,7 +369,7 @@ name_label.grid(row=0, column=0, padx=5, pady=10)
 name_field = Entry(onboard, bd=3, width=20)
 name_field.grid(row=0, column=1, padx=5, pady=10)
 
-matric_label = Label(onboard, text="Matric: ")
+matric_label = Label(onboard, text="Reg No.: ")
 matric_label.grid(row=1, column=0, padx=5, pady=10)
 matric_field = Entry(onboard, bd=3, width=20)
 matric_field.grid(row=1, column=1, padx=5, pady=10)
